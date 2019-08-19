@@ -1,0 +1,30 @@
+img {
+  background: #F1F1FA;
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: 10px auto;
+  border: 0;
+}
+
+.bg-image.lazy-img {
+	background-image: none;
+	background-color: #F1F1FA;
+}
+.bg-image {
+ max-width: 600px;
+ height: 400px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-color: bisque;
+}
+.bg-image--11 {
+	background-image: url('/img/t11.jpeg');
+ }
+ .bg-image--12 {
+	background-image: url('/img/t12.jpg');
+ }
+ .bg-image--13 {
+	background-image: url('/img/t13.jpeg');
+ }
