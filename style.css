@@ -20,11 +20,11 @@ img {
  background-color: bisque;
 }
 .bg-image--11 {
-	background-image: url('/img/t11.jpeg');
+	background-image: url('./img/t11.jpeg');
  }
  .bg-image--12 {
-	background-image: url('/img/t12.jpg');
+	background-image: url('./img/t12.jpg');
  }
  .bg-image--13 {
-	background-image: url('/img/t13.jpeg');
+	background-image: url('./img/t13.jpeg');
  }
