@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (entry.isIntersecting) {
           let image = entry.target;
           image.src = image.dataset.src;
+          delete image.dataset.src;
           image.classList.remove("lazy-img");
           imageObserver.unobserve(image);
         }
@@ -32,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
         lazyloadImages.forEach(img => {
             if(img.offsetTop < (window.innerHeight + scrollTop)) {
               img.src = img.dataset.src;
+              delete image.dataset.src;
               img.classList.remove('lazy-img');
             }
         });
